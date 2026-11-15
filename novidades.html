@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Novidades | Colégio Holus</title>
+  <meta name="description" content="Novidades, eventos, notícias e atividades extras do Colégio Holus.">
+  <link rel="icon" href="img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="novidades">
+
+  <section class="page-hero">
+    <div class="bg" style="background-image:url(img/posts/6278.jpg)"></div>
+    <div class="orbits" aria-hidden="true"><svg viewBox="0 0 600 600"><path class="o1" d="M300 40a260 260 0 1 1-1 0"/><path class="o2" d="M120 380A200 200 0 0 1 430 130"/></svg></div>
+    <div class="container">
+      <div class="crumbs fade-up" style="--d:.1s"><a href="index.html">Home</a> / Novidades</div>
+      <h1 data-split>Novidades &amp; Eventos</h1>
+      <p class="fade-up">Tudo o que acontece no Colégio Holus: eventos, notícias, projetos, aprovações e atividades extras.</p>
+      <nav class="subnav fade-up" style="--d:.8s">
+        <a href="#eventos">Eventos e Notícias</a><a href="#atividades">Atividades Extras</a>
+      </nav>
+    </div>
+  </section>
+
+  <section class="section cream" id="lista">
+    <div class="container">
+      <h2 class="reveal" id="news-title">Todas as publicações</h2>
+      <div class="filters reveal">
+        <div id="news-filters" style="display:contents"></div>
+        <label class="search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+          <input id="news-search" type="search" placeholder="Buscar publicações…" aria-label="Buscar publicações">
+        </label>
+      </div>
+      <div class="news-grid" id="all-news"></div>
+      <div class="load-more" id="news-more"><button class="btn navy">Carregar mais</button></div>
+    </div>
+  </section>
+
+  <script src="data/posts.js"></script>
+  <script src="js/site.js"></script>
+</body>
+</html>
